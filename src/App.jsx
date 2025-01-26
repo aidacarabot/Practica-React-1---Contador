@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <ShowCount count={count} />
-      <div className="card">
+      <div className="buttons-count">
         <button onClick={() => setCount((count) => count + 1)}>
           Sumar
         </button>
